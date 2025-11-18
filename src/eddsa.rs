@@ -1,7 +1,7 @@
 use arrayvec::ArrayVec;
 use ledger_device_sdk::ecc::*;
 use ledger_device_sdk::io::SyscallError;
-use ledger_secure_sdk_sys::*;
+use ledger_device_sdk::sys::*;
 
 use crate::common::*;
 

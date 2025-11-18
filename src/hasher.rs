@@ -3,7 +3,7 @@ use core::default::Default;
 use core::fmt;
 use core::fmt::Write;
 use core::ops::DerefMut;
-use ledger_secure_sdk_sys::*;
+use ledger_device_sdk::sys::*;
 use zeroize::{Zeroize, Zeroizing};
 
 pub trait Hasher {
