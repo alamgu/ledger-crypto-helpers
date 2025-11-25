@@ -11,6 +11,6 @@ hex-literal = "0.3"
 [dependencies]
 arrayvec = { version = "0.7.1", default-features = false }
 base64 = { version = "0.13.0", default-features = false }
-ledger-log = { git = "https://github.com/alamgu/ledger-log.git", branch = "y333/rust_sdk_single_crate" }
+ledger-log = { git = "https://github.com/alamgu/ledger-log.git" }
 ledger_device_sdk = { version = "1.29.0", features = ["sys"] }
 zeroize = { version = "1.5.2", default-features = false }
